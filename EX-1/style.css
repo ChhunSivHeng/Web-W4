@@ -1,0 +1,64 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+    padding: 200px;
+    
+    
+}
+.container01 {
+    background-color: aliceblue;
+    margin: 30px 100px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.container01 button {
+    width: 120px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 30px;
+    color: white;
+}
+.container02 {
+    background-color: white;
+    margin: 30px 100px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.container02 button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(255, 238, 0);
+    border-radius: 30px;
+    color: white;
+}
+.container03 {
+    background-color: white;
+    margin: 0px 100px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.container03 button {
+    width: 120px;
+    height: 40px;
+    background-color: rgb(18, 0, 59);
+    border-radius: 30px;
+    color: white;
+}
+
+.container01 button:hover {
+    background-color: rgb(0, 37, 94);
+    cursor: pointer;
+}
+.container02 button:hover {
+    background-color: rgb(0, 37, 94);
+    cursor: pointer;
+}
+.container03 button:hover {
+    background-color: rgb(138, 243, 0);
+    cursor: pointer;
+}
