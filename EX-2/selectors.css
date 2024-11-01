@@ -38,3 +38,15 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!*/
 
 /* Make the <h1> element's color change to blue when hovered over */
 
+* {
+    background-color: #bdc3c7;
+}
+h1{
+    color: #9b59b6;
+}
+h2 {
+    color: #FFA500;
+}
+li {
+    
+}
