@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animated Button</title>
+<style>
+  .animated-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Hover effect */
+  .animated-button:hover {
+    background-color: pink;
+    color: black;
+  }
+
+  /* Text transition */
+  .animated-button::before {
+    content: "Hovered!";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+
+  .animated-button:hover::before {
+    opacity: 1;
+  }
+
+  /* Original text fades out on hover */
+  .animated-button span {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+  }
+
+  .animated-button:hover span {
+    opacity: 0;
+  }
+</style>
+</head>
+<body>
+
+<button class="animated-button"><span>Original Text</span></button>
+
+</body>
+</html>
